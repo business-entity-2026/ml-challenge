@@ -1,5 +1,9 @@
 # Business Entity Resolution Challenge
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bb8124 (structure)
 
 ## Goal
 

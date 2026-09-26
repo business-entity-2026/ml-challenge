@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "business-entity-resolution"
+version = "0.1.0"
+description = "Scalable business entity resolution pipeline for the challenge dataset."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2,<3.0",
+  "numpy>=1.26,<3.0",
+  "scikit-learn>=1.5,<2.0",
+  "rapidfuzz>=3.9,<4.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["business_entity_resolution_tests"]
+
+[tool.setuptools]
+package-dir = {"" = "code/business_entity_resolution/src"}
+
+[tool.setuptools.packages.find]
+where = ["code/business_entity_resolution/src"]
