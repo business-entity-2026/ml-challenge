@@ -1,6 +1,5 @@
 # Business Entity Resolution Challenge
 
-Professional 4-member team repository for the Business Entity Resolution Challenge.
 
 ## Goal
 
